@@ -2,21 +2,22 @@
 
 const num = [1,3,8]
 
-const numFilter = arr => {
-	return arr.map(item=> item*4)
+const numFilter = (arr,x=5) => {
+	return arr.map(item=> item*x)
 }
+
 console.log(numFilter(num))
 
 
 
 // 2 Задача
 
-const chislo = [2,3,5,9,14]
+const number = [2,3,5,9,14]
 
-const chisloFilter = arr => {
-	return arr.filter(item=> item<=5)
+const numberFilter = (arr,x=7) => {
+	return arr.filter(item=> item<=x)
 }
-console.log(chisloFilter(chislo))
+console.log(numberFilter(number,x=7))
 
 
 
@@ -28,3 +29,11 @@ function isEqualTo3 (element) {
 
 console.log([0,2,3,7].some(isEqualTo3))
 console.log([1,4,8,9].some(isEqualTo3))
+
+
+// Задача 4
+
+
+
+
+
