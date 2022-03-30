@@ -22,13 +22,21 @@ console.log(filterLessThan(number,7))
 
 
 // Задача 3
+const array = [0,2,3,7]
 
-function isEqualTo3 (element) {
+function checkthree (element) {
  return element === 3
 }
+console.log(array.find(checkthree))
 
-console.log([0,2,3,7].includes(3))
-console.log([1,4,8,9].find(3))
+const numbers = [1,4,8,9]
+
+function donthavethree (element) {
+	return element ===3
+}
+console.log(numbers.includes(donthavethree))
+
+
 
 
 // Задача 4
